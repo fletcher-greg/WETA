@@ -9,14 +9,11 @@ All you need to do is put in your message and expected value, then call the func
 ## Want an example?
 
 ```javascript
-let test = Weta('1 + 2 should equal 3', 3);
+let test = Weta("1 + 2 should equal 3", 3);
 
-const add = (a, b) a + b;
+const add = (a, b) => a + b;
 
-test(add(1,2)); // result ✔ adds 1 + 2 to equal 3  19ms
-
-
-
+test(add(1, 2)); // result ✔ adds 1 + 2 to equal 3  19ms
 ```
 
 So that's it. Enjoy!
