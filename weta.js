@@ -11,28 +11,4 @@ function Weta(message, target) {
   };
 }
 
-function testing() {
-  return "hi";
-}
-
-let ten = Weta("adds 1 + 2 to equal 3 ", 45150);
-
-ten(quad(0, 300));
-
-let quickie = n => {
-  return (n * (n + 1)) / 2;
-};
-
-// answer(testing());
-
-function quad(start, end) {
-  let result = 0;
-  for (let i = start; i <= end; i += 1) {
-    result += i;
-  }
-  return result;
-}
-let quicksters = Weta("should be super fast", 45150);
-
-quicksters(quickie(300));
-// console.log(quad(5, 10));
+export default Weta;
